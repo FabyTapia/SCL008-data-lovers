@@ -6,13 +6,10 @@
 
 * [Introducción](#preámbulo)
 * [Planificación](#planificacion)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Consideraciones técnicas](#consideraciones-técnicas)
-* [Primeros pasos](#primeros-pasos)
-* [Contenido de referencia](#contenido-de-referencia)
-* [Checklist](#checklist)
+* [Historias de Usuarios](#consideraciones-generales)
+* [Diseño, criterios de aceptación y test de usabilidad](#primeros-pasos)
+* [Modo de Uso](#contenido-de-referencia)
+* [Conclusion](#checklist)
 
 ***
 
@@ -31,29 +28,34 @@ Creamos nuestro prototipo de baja fidelidad
 
 #Diagrama de Flujo
 
-![diagrama de flujo](diagrama de flujo.jpg)
+https://github.com/FabyTapia/SCL008-data-lovers/blob/master/diagrama%20de%20flujo.jpg
 
 
+#  Sketch1
+https://github.com/FabyTapia/SCL008-data-lovers/blob/master/sketch1.jpg
 
+#  Sketch2
+
+https://github.com/FabyTapia/SCL008-data-lovers/blob/master/sketch2.jpg
 
 ## Historias de Usuario  📌
 
 
 
-## Historia de Usuario 1:
+## # Historia de Usuario 1:
 
 YO COMO jugador nuevo de LOL
 QUIERO poder revisar el sitio en distintos dispositivos.
 PARA poder conocer mejor LOL y sus campeones
 
 
-## Historia de Usuario 2:
+###Historia de Usuario 2:
 
 YO COMO jugador nuevo de lol
 QUIERO saber quienes son los personajes con roll mago y sus habilidades
 PARA seleccionarlos y jugar
 
-## Historia de Usuario 3:
+### Historia de Usuario 3:
 
 YO COMO jugador principiante de lol 
 QUIERO que la pagina me muestre todos los campeones ordenados por nombre con imagen de ellos 
