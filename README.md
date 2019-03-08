@@ -29,6 +29,9 @@ Posteriormente registramos un listado de tareas para el logro de objetivos y con
 Link a *TRELLO*  [**Aqui**](https://trello.com/b/jaVnMsw3/data-lovers).
 Creamos nuestro prototipo de baja fidelidad
 
+#Diagrama de Flujo
+
+![diagrama de flujo](diagrama de flujo.jpg)
 
 
 
