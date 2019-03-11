@@ -8,6 +8,7 @@ document.getElementById("power-type").addEventListener("change", () => {
   let resultTags=window.filterData(data2,condition);
   boardCharacters.innerHTML ="";
   resultTags.forEach(element => {
+<<<<<<< Updated upstream
     boardCharacters.innerHTML+= `<div class="col-sm-12	col-md-4 col-lg-4	col-xl-4">
     <div class="card text-white bg-transparent">
       <div class="card-body ">
@@ -17,6 +18,42 @@ document.getElementById("power-type").addEventListener("change", () => {
       </div>
     </div>`
   
+=======
+    boardCharacters.innerHTML+= `<div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src="${element.splash}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">${element.name}</h5>
+        <p class="card-text">${element.blurb}</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">
+        LOL Champions</small>
+      </div>
+    </div>
+    <div class="card">
+    <img class="card-img-top" src="${element.splash}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">${element.name}</h5>
+      <p class="card-text">${element.blurb}</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">LOL Champions</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="${element.splash}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">${element.name}</h5>
+      <p class="card-text">${element.blurb}</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">LOL Champions</small>
+    </div>
+  </div>
+</div>`
+
+>>>>>>> Stashed changes
   });
 });
 
