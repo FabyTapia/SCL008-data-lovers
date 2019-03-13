@@ -4,15 +4,15 @@
     padding:0px;
   }
 
-  body{
+  bodyCharacters{
       background:url("img/lol-imagen.jpg");
       background-repeat: no-repeat;
       min-height: 100vh;
       background-size: cover;
       background-attachment: fixed;
-  
+
   }
-  .titulo{
+  .tittleLol{
     font-size: 65px;
     color:rgb(243, 236, 183);
     font-weight: bold;
@@ -22,33 +22,33 @@
     margin-top: 15px;
     padding: 7px;
   }
-  
-  #caja-2{
+
+  #boxSecond{
     border-radius: 20px;
    	background-size: 50%;
 	  margin-top:45px;
     margin-bottom: 100px;
     padding: 20px;
   }
-  .subtitulo{
+  .subtittle{
 	font-size: 25px;
     color: white;
     font-weight: bold;
     font-family:FrizQuadrata;
     margin-top: 15px;
     margin-bottom:  20px;
-  
+
   }
-.parrafo{
+.paragraph{
 	font-size: 16px;
     color:white;
     font-weight: bold;
     font-family: Arial;
     margin-bottom: 15px;
 }
-  
-  .lol-world2{
-    background-color: #802e2e00; 
+
+  .lol-world{
+    background-color: #802e2e00;
     color:white;
     padding: 7px;
     font-family:FrizQuadrata;
@@ -56,25 +56,25 @@
     font-size:30px;
      border: solid white 1px;
      margin:20px 5px;
-   
-    
+
+
   }
-  
-  .cuerpo{
+
+  .bodyCharacters{
     background:url("img/fondo-fondo.jpg");
       background-repeat: no-repeat;
       min-height: 100vh;
       background-size: cover;
       background-attachment: fixed;
   }
-  
-  .titulo-inicio2 {
+
+  .titleStart {
       color:rgb(243, 242, 235);
       font-family:FrizQuadrata;
       font-size:60px;
       padding: 32px;
-      
-  
+
+
   }
   h2{
       font-size: 30px;
@@ -93,9 +93,9 @@
 flex-flow: row wrap;
 display: flex;
 }
-#orden1,#power-type{  
+#orden1,#power-type{
 
-background-color: #802e2e00; 
+background-color: #802e2e00;
 color:darkgrey;
 padding: 7px;
 font-family:FrizQuadrata;
@@ -108,7 +108,7 @@ font-size:20px;
 footer, p{
   padding-top: 50px;
   color: white;
-  margin-bottom: 41px;  
+  margin-bottom: 41px;
 }
 
 
