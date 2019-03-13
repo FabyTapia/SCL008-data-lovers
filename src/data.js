@@ -23,5 +23,25 @@ return orderChampions
 window.sortData=sortData;
 
 
+ const computeStats = (dataLol) => {
+  let counter=0;
+  dataLol.forEach(element => {
+      if (element.tags.includes("Mage")){
+          counter=counter+1;
+      }
+  }); 
+  return Math.round((counter/134)*100) +"%";    
+};
+window.computeStats = computeStats;
 
 
+
+/*datos para consola 
+undefined
+const dataLol = Object.values(LOL.data)
+undefined
+computeStats(dataLol)
+"39%"
+computeStats(dataLol)
+"39%"
+*/
