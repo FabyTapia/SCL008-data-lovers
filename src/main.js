@@ -48,13 +48,17 @@ championsOrder.addEventListener('change', () => {
    });
   });
 
+  const computeStats = (dataLol) => {
+    let counter=0;
+    dataLol.forEach(element => {
+        if (element.tags.includes("Tank")){
 
-
-
-
-
-
-
+            counter=counter+1;
+        }
+    });
+    return Math.round((counter/134)*100) +"%";
+};
+window.computeStats = computeStats;
 
 
 

@@ -23,16 +23,11 @@ return orderChampions
 window.sortData=sortData;
 
 
-  const computeStats = (dataLol,condition) => {
-    let counter=0;
-    for (let i = 0; i < dataLol.length; i++) {
-        if (element.tags.includes("tags")){
-          console.log("tags")
-            counter=counter+1;
-        }
-    };
-    return Math.round((counter/134)*100) +"%";
-};
+const computeStats = (dataLol,condition) => {
+  let resultLOL = filterData(dataLol,condition).length;
+  return resultLOL;
+
+  }
 window.computeStats = computeStats;
 
 
@@ -46,3 +41,4 @@ computeStats(dataLol)
 computeStats(dataLol)
 "39%"
 */
+
