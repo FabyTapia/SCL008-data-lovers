@@ -10,7 +10,7 @@
    }
    @media (max-width:600px) and (min-width:200px){
     .selects, .filtro3{
-       widows: -2%
+       width: -2%
     }
    }
    @media (max-width:600px) and (min-width:200px){

@@ -42,8 +42,18 @@ championsOrder.addEventListener('change', () => {
           </div>
           </div>
         </div>`
-    
-       
-       
+     
+  
    });
+  });
+
+  const statsBoard = document.getElementById("statsBoard") 
+  let statsLOL=document.getElementById("power-type");
+  statsLOL.addEventListener("click",() => {
+    statsBoard.innerHTML = "";
+    let condition =statsLOL.value;
+    let resultLOL = window.computeStats(dataLol, condition);
+    statsBoard.innerHTML +=`<h3>champions result</h3>
+  <p>${resultLOL}</p>`
+
   });

@@ -53,4 +53,17 @@ assert.deepEqual(window.sortData(dataSort,'name','ordenarAz'),
 
 });
 
+describe('Funcion computeStats', () =>{
+ const compute = [
+  {
+    tags: "Tank",
 
+    calcule : 40
+  }
+ ];
+it ('Debería retornar 40 al clickear Tank', () =>{
+  assert.deepEqual(window.computeStats(compute,"Tank"),[{tags: "Tank",calcule : 40}]);
+});
+
+
+});

@@ -5,7 +5,7 @@ const filterData = (dataLol,condition) => {
     return (element).tags.includes(condition)=== true;
   });
   return resultTags;
- }
+ };
 
  window.filterData=filterData;
 
@@ -23,16 +23,13 @@ return orderChampions
 window.sortData=sortData;
 
 
- const computeStats = (dataLol) => {
-  let counter=0;
-  dataLol.forEach(element => {
-      if (element.tags.includes("Mage")){
-          counter=counter+1;
-      }
-  }); 
-  return Math.round((counter/134)*100) +"%";    
-};
+const computeStats = (dataLol,condition) => {
+  let resultLOL = filterData(dataLol,condition).length;
+  return resultLOL;
+
+  }
 window.computeStats = computeStats;
+
 
 
 
