@@ -5,7 +5,7 @@ const filterData = (dataLol,condition) => {
     return (element).tags.includes(condition)=== true;
   });
   return resultTags;
- };
+ }
 
  window.filterData=filterData;
 
@@ -32,8 +32,7 @@ window.computeStats = computeStats;
 
 
 
-
-/*datos para consola 
+/*datos para consola
 undefined
 const dataLol = Object.values(LOL.data)
 undefined

@@ -1,11 +1,10 @@
 *{
-  
+
   box-sizing: border-box;
     margin:0px;
     padding:0px;
   }
-
-  .bodyCharacters{
+  .bodyCharacters,.pageBody,.bodyStats{
       background-image:url("img/lol-imagen.jpg");
       background-repeat: no-repeat;
       min-height: 100vh;
@@ -31,7 +30,7 @@
     margin-bottom: 100px;
     padding: 20px;
   }
-  .subtittle{
+  .subtittle,.subtitleStats,.paragraphStats{
 	font-size: 25px;
     color: white;
     font-weight: bold;
@@ -48,7 +47,7 @@
     margin-bottom: 15px;
 }
 
-  .lol-world{
+  .lol-world,.lol-world2{
     background-color: #802e2e00;
     color:white;
     padding: 7px;
@@ -103,6 +102,12 @@ footer, p{
   color: white;
   margin-bottom: 41px;
 }
+.modal-header,.modal-body,.modal-footer{
+  color: black
 
-
+}
+.modal-btn{
+  font-family:FrizQuadrata;
+  color:darkgrey;
+}
 
