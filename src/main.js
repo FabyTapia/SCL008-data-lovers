@@ -11,7 +11,7 @@ document.getElementById("power-type").addEventListener("change", () => {
     boardCharacters.innerHTML += `<div class="col-sm-12	col-md-4	col-lg-4	col-xl-4">
     <div class="card text-white bg-transparent"
       <div class="card-body">
-        <h3 class="card-title font-weight-bold ">${element.name}</h3>
+        <h3 class="card-title font-weight-bold ">${element.id}</h3>
 
         <img class="image" src="${element.splash}" alt=""class="img-thumbnail">
         <!-- Button trigger modal -->
@@ -29,7 +29,9 @@ document.getElementById("power-type").addEventListener("change", () => {
       </button>
     </div>
   <div class="modal-body">
-  ${element.blurb}
+  <p>${element.blurb}
+  </p>
+
   </div>
   <div class="modal-footer">
     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -59,7 +61,7 @@ championsOrder.addEventListener('change', () => {
     `<div class="col-sm-12	col-md-4	col-lg-4	col-xl-4">
     <div class="card text-white bg-transparent"
       <div class="card-body">
-        <h3 class="card-title font-weight-bold ">${element.name}</h3>
+        <h3 class="card-title font-weight-bold ">${element.id}</h3>
 
         <img class="image" src="${element.splash}" alt=""class="img-thumbnail">
         <!-- Button trigger modal -->
@@ -77,7 +79,8 @@ championsOrder.addEventListener('change', () => {
       </button>
     </div>
   <div class="modal-body">
-  ${element.blurb}
+  <p>${element.blurb}
+  </p>
   </div>
   <div class="modal-footer">
     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
